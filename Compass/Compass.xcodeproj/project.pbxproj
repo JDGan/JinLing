@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7166D0AD18C411B9002C121B /* CPTabScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7166D0AC18C411B9002C121B /* CPTabScrollView.m */; };
+		7166D0B018C41214002C121B /* CPTabItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 7166D0AF18C41214002C121B /* CPTabItem.m */; };
+		7166D0B318C4189C002C121B /* CPTabItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7166D0B218C4189C002C121B /* CPTabItemView.m */; };
+		AE81AEE018C17F160036A0DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE81AEDF18C17F160036A0DA /* Foundation.framework */; };
+		AE81AEE218C17F160036A0DA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE81AEE118C17F160036A0DA /* CoreGraphics.framework */; };
+		AE81AEE418C17F160036A0DA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE81AEE318C17F160036A0DA /* UIKit.framework */; };
+		AE81AEEA18C17F160036A0DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AE81AEE818C17F160036A0DA /* InfoPlist.strings */; };
+		AE81AEEC18C17F160036A0DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE81AEEB18C17F160036A0DA /* main.m */; };
+		AE81AEF018C17F160036A0DA /* CPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE81AEEF18C17F160036A0DA /* CPAppDelegate.m */; };
+		AE81AEF218C17F160036A0DA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE81AEF118C17F160036A0DA /* Images.xcassets */; };
+		AE81AEF918C17F170036A0DA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE81AEF818C17F170036A0DA /* XCTest.framework */; };
+		AE81AEFA18C17F170036A0DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE81AEDF18C17F160036A0DA /* Foundation.framework */; };
+		AE81AEFB18C17F170036A0DA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE81AEE318C17F160036A0DA /* UIKit.framework */; };
+		AE81AF0318C17F170036A0DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AE81AF0118C17F170036A0DA /* InfoPlist.strings */; };
+		AE81AF0518C17F170036A0DA /* CompassTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE81AF0418C17F170036A0DA /* CompassTests.m */; };
+		AE81AF1618C180BA0036A0DA /* CPMainPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE81AF1318C180BA0036A0DA /* CPMainPageViewController.m */; };
+		AE81AF1718C180BA0036A0DA /* CPNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE81AF1518C180BA0036A0DA /* CPNavigationViewController.m */; };
+		AE81AF1C18C181890036A0DA /* CPDataCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = AE81AF1918C181890036A0DA /* CPDataCenter.m */; };
+		AE81AF1D18C181890036A0DA /* CPFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AE81AF1B18C181890036A0DA /* CPFileManager.m */; };
+		AE81AF1F18C182B30036A0DA /* cars.plist in Resources */ = {isa = PBXBuildFile; fileRef = AE81AF1E18C182B30036A0DA /* cars.plist */; };
+		AE81AF2218C184F70036A0DA /* CPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE81AF2118C184F70036A0DA /* CPViewController.m */; };
+		AE81AF2518C1882E0036A0DA /* CPCustomTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE81AF2418C1882E0036A0DA /* CPCustomTabBarViewController.m */; };
+		AE81AF2918C193730036A0DA /* car_name_1.plist in Resources */ = {isa = PBXBuildFile; fileRef = AE81AF2818C193730036A0DA /* car_name_1.plist */; };
+		AE81AF2C18C199EF0036A0DA /* CPCustomCarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE81AF2B18C199EF0036A0DA /* CPCustomCarViewController.m */; };
+		AE81AF3918C1C9050036A0DA /* CustomNaviBarSearchController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE81AF2F18C1C9050036A0DA /* CustomNaviBarSearchController.m */; };
+		AE81AF3A18C1C9050036A0DA /* CustomNaviBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = AE81AF3118C1C9050036A0DA /* CustomNaviBarView.m */; };
+		AE81AF3B18C1C9050036A0DA /* CustomNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE81AF3318C1C9050036A0DA /* CustomNavigationController.m */; };
+		AE81AF3C18C1C9050036A0DA /* CustomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE81AF3518C1C9050036A0DA /* CustomViewController.m */; };
+		AE81AF3D18C1C9050036A0DA /* UtilityFunc.m in Sources */ = {isa = PBXBuildFile; fileRef = AE81AF3818C1C9050036A0DA /* UtilityFunc.m */; };
+		AE81AF3F18C1C9840036A0DA /* readme.strings in Resources */ = {isa = PBXBuildFile; fileRef = AE81AF3E18C1C9840036A0DA /* readme.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AE81AEFC18C17F170036A0DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE81AED418C17F160036A0DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE81AEDB18C17F160036A0DA;
+			remoteInfo = Compass;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7166D0AB18C411B9002C121B /* CPTabScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTabScrollView.h; sourceTree = "<group>"; };
+		7166D0AC18C411B9002C121B /* CPTabScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPTabScrollView.m; sourceTree = "<group>"; };
+		7166D0AE18C41214002C121B /* CPTabItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTabItem.h; sourceTree = "<group>"; };
+		7166D0AF18C41214002C121B /* CPTabItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPTabItem.m; sourceTree = "<group>"; };
+		7166D0B118C4189C002C121B /* CPTabItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTabItemView.h; sourceTree = "<group>"; };
+		7166D0B218C4189C002C121B /* CPTabItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPTabItemView.m; sourceTree = "<group>"; };
+		AE81AEDC18C17F160036A0DA /* Compass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Compass.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE81AEDF18C17F160036A0DA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AE81AEE118C17F160036A0DA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AE81AEE318C17F160036A0DA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AE81AEE718C17F160036A0DA /* Compass-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Compass-Info.plist"; sourceTree = "<group>"; };
+		AE81AEE918C17F160036A0DA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AE81AEEB18C17F160036A0DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AE81AEED18C17F160036A0DA /* Compass-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Compass-Prefix.pch"; sourceTree = "<group>"; };
+		AE81AEEE18C17F160036A0DA /* CPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPAppDelegate.h; sourceTree = "<group>"; };
+		AE81AEEF18C17F160036A0DA /* CPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPAppDelegate.m; sourceTree = "<group>"; };
+		AE81AEF118C17F160036A0DA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Compass/Images.xcassets; sourceTree = "<group>"; };
+		AE81AEF718C17F170036A0DA /* CompassTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CompassTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE81AEF818C17F170036A0DA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		AE81AF0018C17F170036A0DA /* CompassTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CompassTests-Info.plist"; sourceTree = "<group>"; };
+		AE81AF0218C17F170036A0DA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AE81AF0418C17F170036A0DA /* CompassTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CompassTests.m; sourceTree = "<group>"; };
+		AE81AF1118C180620036A0DA /* Predefination.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Predefination.h; sourceTree = "<group>"; };
+		AE81AF1218C180BA0036A0DA /* CPMainPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPMainPageViewController.h; sourceTree = "<group>"; };
+		AE81AF1318C180BA0036A0DA /* CPMainPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPMainPageViewController.m; sourceTree = "<group>"; };
+		AE81AF1418C180BA0036A0DA /* CPNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPNavigationViewController.h; sourceTree = "<group>"; };
+		AE81AF1518C180BA0036A0DA /* CPNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPNavigationViewController.m; sourceTree = "<group>"; };
+		AE81AF1818C181890036A0DA /* CPDataCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPDataCenter.h; sourceTree = "<group>"; };
+		AE81AF1918C181890036A0DA /* CPDataCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPDataCenter.m; sourceTree = "<group>"; };
+		AE81AF1A18C181890036A0DA /* CPFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPFileManager.h; sourceTree = "<group>"; };
+		AE81AF1B18C181890036A0DA /* CPFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPFileManager.m; sourceTree = "<group>"; };
+		AE81AF1E18C182B30036A0DA /* cars.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = cars.plist; sourceTree = "<group>"; };
+		AE81AF2018C184F70036A0DA /* CPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPViewController.h; sourceTree = "<group>"; };
+		AE81AF2118C184F70036A0DA /* CPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPViewController.m; sourceTree = "<group>"; };
+		AE81AF2318C1882E0036A0DA /* CPCustomTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPCustomTabBarViewController.h; sourceTree = "<group>"; };
+		AE81AF2418C1882E0036A0DA /* CPCustomTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPCustomTabBarViewController.m; sourceTree = "<group>"; };
+		AE81AF2818C193730036A0DA /* car_name_1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = car_name_1.plist; sourceTree = "<group>"; };
+		AE81AF2A18C199EF0036A0DA /* CPCustomCarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPCustomCarViewController.h; sourceTree = "<group>"; };
+		AE81AF2B18C199EF0036A0DA /* CPCustomCarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPCustomCarViewController.m; sourceTree = "<group>"; };
+		AE81AF2E18C1C9050036A0DA /* CustomNaviBarSearchController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomNaviBarSearchController.h; sourceTree = "<group>"; };
+		AE81AF2F18C1C9050036A0DA /* CustomNaviBarSearchController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomNaviBarSearchController.m; sourceTree = "<group>"; };
+		AE81AF3018C1C9050036A0DA /* CustomNaviBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomNaviBarView.h; sourceTree = "<group>"; };
+		AE81AF3118C1C9050036A0DA /* CustomNaviBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomNaviBarView.m; sourceTree = "<group>"; };
+		AE81AF3218C1C9050036A0DA /* CustomNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomNavigationController.h; sourceTree = "<group>"; };
+		AE81AF3318C1C9050036A0DA /* CustomNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomNavigationController.m; sourceTree = "<group>"; };
+		AE81AF3418C1C9050036A0DA /* CustomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomViewController.h; sourceTree = "<group>"; };
+		AE81AF3518C1C9050036A0DA /* CustomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomViewController.m; sourceTree = "<group>"; };
+		AE81AF3618C1C9050036A0DA /* GlobalDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalDefine.h; sourceTree = "<group>"; };
+		AE81AF3718C1C9050036A0DA /* UtilityFunc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UtilityFunc.h; sourceTree = "<group>"; };
+		AE81AF3818C1C9050036A0DA /* UtilityFunc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UtilityFunc.m; sourceTree = "<group>"; };
+		AE81AF3E18C1C9840036A0DA /* readme.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = readme.strings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE81AED918C17F160036A0DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE81AEE218C17F160036A0DA /* CoreGraphics.framework in Frameworks */,
+				AE81AEE418C17F160036A0DA /* UIKit.framework in Frameworks */,
+				AE81AEE018C17F160036A0DA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE81AEF418C17F170036A0DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE81AEF918C17F170036A0DA /* XCTest.framework in Frameworks */,
+				AE81AEFB18C17F170036A0DA /* UIKit.framework in Frameworks */,
+				AE81AEFA18C17F170036A0DA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7166D0AA18C4119C002C121B /* CPTabScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				7166D0AB18C411B9002C121B /* CPTabScrollView.h */,
+				7166D0AC18C411B9002C121B /* CPTabScrollView.m */,
+				7166D0B118C4189C002C121B /* CPTabItemView.h */,
+				7166D0B218C4189C002C121B /* CPTabItemView.m */,
+				7166D0AE18C41214002C121B /* CPTabItem.h */,
+				7166D0AF18C41214002C121B /* CPTabItem.m */,
+			);
+			path = CPTabScrollView;
+			sourceTree = "<group>";
+		};
+		AE81AED318C17F160036A0DA = {
+			isa = PBXGroup;
+			children = (
+				AE81AEF118C17F160036A0DA /* Images.xcassets */,
+				AE81AEE518C17F160036A0DA /* Compass */,
+				AE81AEFE18C17F170036A0DA /* CompassTests */,
+				AE81AEDE18C17F160036A0DA /* Frameworks */,
+				AE81AEDD18C17F160036A0DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE81AEDD18C17F160036A0DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE81AEDC18C17F160036A0DA /* Compass.app */,
+				AE81AEF718C17F170036A0DA /* CompassTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE81AEDE18C17F160036A0DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AE81AEDF18C17F160036A0DA /* Foundation.framework */,
+				AE81AEE118C17F160036A0DA /* CoreGraphics.framework */,
+				AE81AEE318C17F160036A0DA /* UIKit.framework */,
+				AE81AEF818C17F170036A0DA /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AE81AEE518C17F160036A0DA /* Compass */ = {
+			isa = PBXGroup;
+			children = (
+				AE81AEEE18C17F160036A0DA /* CPAppDelegate.h */,
+				AE81AEEF18C17F160036A0DA /* CPAppDelegate.m */,
+				AE81AF1118C180620036A0DA /* Predefination.h */,
+				AE81AF1018C1801E0036A0DA /* ViewControllers */,
+				AE81AF0E18C17FFD0036A0DA /* CustomUI */,
+				AE81AF0F18C17FFD0036A0DA /* Util */,
+				AE81AF2618C190890036A0DA /* resources */,
+				AE81AEE618C17F160036A0DA /* Supporting Files */,
+			);
+			path = Compass;
+			sourceTree = "<group>";
+		};
+		AE81AEE618C17F160036A0DA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE81AEE718C17F160036A0DA /* Compass-Info.plist */,
+				AE81AF1E18C182B30036A0DA /* cars.plist */,
+				AE81AEE818C17F160036A0DA /* InfoPlist.strings */,
+				AE81AEEB18C17F160036A0DA /* main.m */,
+				AE81AEED18C17F160036A0DA /* Compass-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AE81AEFE18C17F170036A0DA /* CompassTests */ = {
+			isa = PBXGroup;
+			children = (
+				AE81AF0418C17F170036A0DA /* CompassTests.m */,
+				AE81AEFF18C17F170036A0DA /* Supporting Files */,
+			);
+			path = CompassTests;
+			sourceTree = "<group>";
+		};
+		AE81AEFF18C17F170036A0DA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE81AF0018C17F170036A0DA /* CompassTests-Info.plist */,
+				AE81AF0118C17F170036A0DA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AE81AF0E18C17FFD0036A0DA /* CustomUI */ = {
+			isa = PBXGroup;
+			children = (
+				7166D0AA18C4119C002C121B /* CPTabScrollView */,
+				AE81AF2D18C1C9050036A0DA /* CustomNavigationBar */,
+				AE81AF2018C184F70036A0DA /* CPViewController.h */,
+				AE81AF2118C184F70036A0DA /* CPViewController.m */,
+			);
+			path = CustomUI;
+			sourceTree = "<group>";
+		};
+		AE81AF0F18C17FFD0036A0DA /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				AE81AF1818C181890036A0DA /* CPDataCenter.h */,
+				AE81AF1918C181890036A0DA /* CPDataCenter.m */,
+				AE81AF1A18C181890036A0DA /* CPFileManager.h */,
+				AE81AF1B18C181890036A0DA /* CPFileManager.m */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		AE81AF1018C1801E0036A0DA /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				AE81AF1418C180BA0036A0DA /* CPNavigationViewController.h */,
+				AE81AF1518C180BA0036A0DA /* CPNavigationViewController.m */,
+				AE81AF1218C180BA0036A0DA /* CPMainPageViewController.h */,
+				AE81AF1318C180BA0036A0DA /* CPMainPageViewController.m */,
+				AE81AF2318C1882E0036A0DA /* CPCustomTabBarViewController.h */,
+				AE81AF2418C1882E0036A0DA /* CPCustomTabBarViewController.m */,
+				AE81AF2A18C199EF0036A0DA /* CPCustomCarViewController.h */,
+				AE81AF2B18C199EF0036A0DA /* CPCustomCarViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		AE81AF2618C190890036A0DA /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				AE81AF2718C190DA0036A0DA /* car_name_1 */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		AE81AF2718C190DA0036A0DA /* car_name_1 */ = {
+			isa = PBXGroup;
+			children = (
+				AE81AF2818C193730036A0DA /* car_name_1.plist */,
+			);
+			path = car_name_1;
+			sourceTree = "<group>";
+		};
+		AE81AF2D18C1C9050036A0DA /* CustomNavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				AE81AF2E18C1C9050036A0DA /* CustomNaviBarSearchController.h */,
+				AE81AF2F18C1C9050036A0DA /* CustomNaviBarSearchController.m */,
+				AE81AF3018C1C9050036A0DA /* CustomNaviBarView.h */,
+				AE81AF3118C1C9050036A0DA /* CustomNaviBarView.m */,
+				AE81AF3218C1C9050036A0DA /* CustomNavigationController.h */,
+				AE81AF3318C1C9050036A0DA /* CustomNavigationController.m */,
+				AE81AF3418C1C9050036A0DA /* CustomViewController.h */,
+				AE81AF3518C1C9050036A0DA /* CustomViewController.m */,
+				AE81AF3618C1C9050036A0DA /* GlobalDefine.h */,
+				AE81AF3718C1C9050036A0DA /* UtilityFunc.h */,
+				AE81AF3818C1C9050036A0DA /* UtilityFunc.m */,
+				AE81AF3E18C1C9840036A0DA /* readme.strings */,
+			);
+			path = CustomNavigationBar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE81AEDB18C17F160036A0DA /* Compass */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE81AF0818C17F170036A0DA /* Build configuration list for PBXNativeTarget "Compass" */;
+			buildPhases = (
+				AE81AED818C17F160036A0DA /* Sources */,
+				AE81AED918C17F160036A0DA /* Frameworks */,
+				AE81AEDA18C17F160036A0DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Compass;
+			productName = Compass;
+			productReference = AE81AEDC18C17F160036A0DA /* Compass.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AE81AEF618C17F170036A0DA /* CompassTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE81AF0B18C17F170036A0DA /* Build configuration list for PBXNativeTarget "CompassTests" */;
+			buildPhases = (
+				AE81AEF318C17F170036A0DA /* Sources */,
+				AE81AEF418C17F170036A0DA /* Frameworks */,
+				AE81AEF518C17F170036A0DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE81AEFD18C17F170036A0DA /* PBXTargetDependency */,
+			);
+			name = CompassTests;
+			productName = CompassTests;
+			productReference = AE81AEF718C17F170036A0DA /* CompassTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE81AED418C17F160036A0DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CP;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Dazhuo Ding";
+				TargetAttributes = {
+					AE81AEF618C17F170036A0DA = {
+						TestTargetID = AE81AEDB18C17F160036A0DA;
+					};
+				};
+			};
+			buildConfigurationList = AE81AED718C17F160036A0DA /* Build configuration list for PBXProject "Compass" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AE81AED318C17F160036A0DA;
+			productRefGroup = AE81AEDD18C17F160036A0DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE81AEDB18C17F160036A0DA /* Compass */,
+				AE81AEF618C17F170036A0DA /* CompassTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE81AEDA18C17F160036A0DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE81AEEA18C17F160036A0DA /* InfoPlist.strings in Resources */,
+				AE81AEF218C17F160036A0DA /* Images.xcassets in Resources */,
+				AE81AF3F18C1C9840036A0DA /* readme.strings in Resources */,
+				AE81AF2918C193730036A0DA /* car_name_1.plist in Resources */,
+				AE81AF1F18C182B30036A0DA /* cars.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE81AEF518C17F170036A0DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE81AF0318C17F170036A0DA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE81AED818C17F160036A0DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE81AF1D18C181890036A0DA /* CPFileManager.m in Sources */,
+				AE81AF3A18C1C9050036A0DA /* CustomNaviBarView.m in Sources */,
+				AE81AF2218C184F70036A0DA /* CPViewController.m in Sources */,
+				AE81AF3918C1C9050036A0DA /* CustomNaviBarSearchController.m in Sources */,
+				AE81AF2518C1882E0036A0DA /* CPCustomTabBarViewController.m in Sources */,
+				AE81AF1C18C181890036A0DA /* CPDataCenter.m in Sources */,
+				AE81AEEC18C17F160036A0DA /* main.m in Sources */,
+				AE81AF3C18C1C9050036A0DA /* CustomViewController.m in Sources */,
+				AE81AF1718C180BA0036A0DA /* CPNavigationViewController.m in Sources */,
+				AE81AF2C18C199EF0036A0DA /* CPCustomCarViewController.m in Sources */,
+				7166D0AD18C411B9002C121B /* CPTabScrollView.m in Sources */,
+				7166D0B318C4189C002C121B /* CPTabItemView.m in Sources */,
+				AE81AF3D18C1C9050036A0DA /* UtilityFunc.m in Sources */,
+				AE81AEF018C17F160036A0DA /* CPAppDelegate.m in Sources */,
+				AE81AF3B18C1C9050036A0DA /* CustomNavigationController.m in Sources */,
+				AE81AF1618C180BA0036A0DA /* CPMainPageViewController.m in Sources */,
+				7166D0B018C41214002C121B /* CPTabItem.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE81AEF318C17F170036A0DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE81AF0518C17F170036A0DA /* CompassTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AE81AEFD18C17F170036A0DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE81AEDB18C17F160036A0DA /* Compass */;
+			targetProxy = AE81AEFC18C17F170036A0DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AE81AEE818C17F160036A0DA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE81AEE918C17F160036A0DA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AE81AF0118C17F170036A0DA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE81AF0218C17F170036A0DA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE81AF0618C17F170036A0DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		AE81AF0718C17F170036A0DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE81AF0918C17F170036A0DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Compass/Compass-Prefix.pch";
+				INFOPLIST_FILE = "Compass/Compass-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AE81AF0A18C17F170036A0DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Compass/Compass-Prefix.pch";
+				INFOPLIST_FILE = "Compass/Compass-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		AE81AF0C18C17F170036A0DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Compass.app/Compass";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Compass/Compass-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CompassTests/CompassTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		AE81AF0D18C17F170036A0DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Compass.app/Compass";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Compass/Compass-Prefix.pch";
+				INFOPLIST_FILE = "CompassTests/CompassTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE81AED718C17F160036A0DA /* Build configuration list for PBXProject "Compass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE81AF0618C17F170036A0DA /* Debug */,
+				AE81AF0718C17F170036A0DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE81AF0818C17F170036A0DA /* Build configuration list for PBXNativeTarget "Compass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE81AF0918C17F170036A0DA /* Debug */,
+				AE81AF0A18C17F170036A0DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE81AF0B18C17F170036A0DA /* Build configuration list for PBXNativeTarget "CompassTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE81AF0C18C17F170036A0DA /* Debug */,
+				AE81AF0D18C17F170036A0DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE81AED418C17F160036A0DA /* Project object */;
+}

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>car_name_1</string>
+	<key>safe_img_url</key>
+	<array/>
+	<key>force_img_url	</key>
+	<array/>
+	<key>manipulation_img_url</key>
+	<array/>
+	<key>Interior_img_url</key>
+	<array/>
+	<key>exterior_img_url</key>
+	<array/>
+	<key>engines</key>
+	<array/>
+	<key>wheels</key>
+	<array/>
+	<key>rearviewMirror</key>
+	<array/>
+	<key>seats</key>
+	<array/>
+	<key>combinations</key>
+	<array/>
+	<key>car_body_front_img</key>
+	<array/>
+	<key>car_body_side_img</key>
+	<array/>
+	<key>car_body_back_perspective_img</key>
+	<array/>
+	<key>car_body_back_img</key>
+	<array/>
+	<key>car_body_colors</key>
+	<array/>
+	<key>versions</key>
+	<array/>
+</dict>
+</plist>
